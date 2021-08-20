@@ -19,6 +19,7 @@ void solve()
 
 int main()
 {
+	start();
 	int T;
 	cin >> T;
 	while(T--)
