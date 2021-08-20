@@ -12,7 +12,6 @@ Prerequisites :
 
  - g++.exe (MinGW)
  - [micro](https://micro-editor.github.io/) text editor
- - clang
 
 Hope this repo helps !
 
