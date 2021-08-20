@@ -4,7 +4,7 @@ Hi ! I am Aritro Shome, better known on [Codechef](https://www.codechef.com/user
 
 This repository contains code for some of the problems.
 
-To find the page of the problem, type codechef.com/<file-name-without-extension-in-upper-case>
+To find the page of the problem, type codechef.com/_file-name-without-extension-in-upper-case_
 
 The build tools are exclusively for windows :)
 
