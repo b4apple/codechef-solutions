@@ -5,9 +5,6 @@ using namespace std;
 #define lli long long int
 #define vi vector<int>
 #define nl "\n"
-#define pb push_back
-
-
 
 void start()
 {
@@ -17,7 +14,10 @@ void start()
 
 void solve()
 {
-	
+	int k;
+	cin >> k;
+	double r = sqrt(k);
+	cout << round(r) << nl;	
 }
 
 int main()

@@ -15,19 +15,22 @@ void start()
 	cin.tie(0);	
 }
 
-void solve()
-{
-	
-}
 
 int main()
 {
 	start();
 	int T;
 	cin >> T;
+	int d = -10000;
 	while(T--)
 	{
-		solve();
+		int a, b;
+		cin >> a >> b;
+		d = (abs(a - b) > (d) ) ? abs(a - b) : d; 
 	}
+	if(d < 0)
+		cout << 2 << " " << abs(d) << nl;
+	else 
+		cout << 1 << " " << abs(d) << nl;
 	return 0;
 }

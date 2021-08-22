@@ -17,7 +17,14 @@ void start()
 
 void solve()
 {
-	
+	int a, b, c;
+	cin >> a >> b >> c;
+	vi d;
+	d.pb(a);
+	d.pb(b);
+	d.pb(c);
+	sort(d.begin(), d.end());
+	cout << d[1] << nl;	
 }
 
 int main()
