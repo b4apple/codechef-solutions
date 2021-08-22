@@ -15,33 +15,26 @@ void start()
 	cin.tie(0);	
 }
 
+void solve()
+{
+	lli a, b;
+	cin >> a >> b;
+	if(a > b)
+		cout << ">" << nl;
+	else if (a == b)
+		cout << "=" << nl;
+	else 
+		cout << "<" << nl;	
+}
 
 int main()
 {
 	start();
 	int T;
 	cin >> T;
-	int d = -10000;
-	int a = 0, b = 0, k = 0;
 	while(T--)
 	{
-		int p, q;
-		cin >> p >> q;
-		a += p;
-		b += q;  
-		if (abs(a - b) > d)
-		{
-			if (a > b)
-			{
-				k = 1;
-			}
-			else if (a < b)
-			{
-				k = 2;
-			}
-			d = abs(a - b);
-		}
+		solve();
 	}
-	cout << k << " " << d << nl;
 	return 0;
 }
